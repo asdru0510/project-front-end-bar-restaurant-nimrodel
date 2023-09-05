@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@media screen and (min-width:1200px){
+    .RaizNav{
+        background-color: #000;
+    }
+
+    .contBarra{
+        height: 20vh;
+        background-image: url(../img/fondo.jpg);
+        background-size: contain;
+        background-position-x: center;
+        align-items: end;
+    }
+    .contBarra ul{
+        margin-left: 10%;
+    }
+
+    .contBarra a{
+        color:white;
+        font-size: 1.25rem;
+    }
+
+    .logo{
+        height:15vh;
+    }
+    .li2{
+        width:auto;
+    }
+
+    .containerTitulo{
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        font-size: 2em;
+    
+    }
+    
+    .containerTitulo h1{
+        font-size: 1.5em;
+        color:#837D7C;
+    }
+    
+    .subtitulo{
+        display: flex;
+        text-decoration: overline;
+        justify-content: center;
+       
+    
+    }
+    
+   .imgCard{
+        height:20vh;
+    }
+    .contenedorForm{
+        margin-top: 5px;
+    }
+    form{
+        margin-top: 2vh;
+        width:35vw;
+        margin-inline: auto;        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #070707;
+        border-radius: 10px;
+    }
+    
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/fondo.jpg);
+        height: 12.5vh;
+        color: #fff;
+    }
+
+
+}
+
+.carruselCont{
+    height: 40vh;
+}
+
+.carruselCont img{
+    height: 40vh;
+}
+
+/*  Medias Query 
+
+xl:min 1200px         lg: min 992px       md: min 768px       sm: min:576px   xs: max 576 px
+
+
+
+*/
+
+@media screen and (max-width:1199px){
+
+    .RaizNav{
+        background-color: #000;
+    }
+
+    .contBarra{
+        height: 20vh;
+        background-image: url(../img/fondo.jpg);
+        background-size: contain;
+        background-position-x: center;
+        align-items: end;
+    }
+    .contBarra ul{
+        margin-left: 10%;
+    }
+
+    .contBarra a{
+        color:white;
+        font-size: 1.25rem;
+    }
+
+    .logo{
+        height:15vh;
+    }
+
+    .li2{
+        width:auto;
+    }
+    .containerTitulo{
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        font-size: 2em;
+        width: 100%;
+        margin-inline: auto;
+        text-align: center;    
+    }
+    
+    .containerTitulo h1{
+        font-size: 1.5em;
+        color:#837D7C;
+    }
+    
+    .subtitulo{
+        display: flex;
+        text-decoration: overline;
+        justify-content: center;
+    
+    }
+
+    .contenedorForm{
+        margin-top: 5px;
+    }
+    form{
+        margin-top: 2vh;
+        width:576px;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #070707;
+        border-radius: 10px;
+    }
+    
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        background-image: url(../img/fondo.jpg);
+        height: 12.5vh;
+        color: #fff;
+    }
+
+    .carruselCont{
+        height: 40vh;
+    }
+
+    .carruselCont img{
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .RaizNav{
+        background-color: #000;
+    }
+
+    .contBarra{
+        height: 100%;
+        background-image: url(../img/fondo.jpg);
+        background-size: contain;
+        background-position-x: center;
+        justify-content: end;
+        padding-right: 10vw;
+    }    
+    .contBarra a{
+        color:white;
+        font-size: 1.25rem;
+    }
+    /* .contBarra ul{
+        align-self: self-end;
+        justify-content: end;
+    } */
+    .logo{
+        height:15vh;
+    }
+
+    .li2{
+        width:auto;
+    }
+    
+    .containerTitulo{
+        width: 75%;
+    }
+    .containerTitulo h1 {
+        font-size: 1.25em;
+    }
+    #contCard{
+        margin-inline: 12.5%;
+    }
+
+    #reserva{
+        display: none;
+    }
+    #comuniquemonos{
+        display: none;
+    }
+
+    .carrusel{
+        display:none;
+    }
+    
+
+}
+
+@media screen and (max-width:767px) {
+
+    .RaizNav{
+        background-color: #000;
+    }
+    .containerTitulo h1 {
+        font-size: 1em;
+    }
+
+    #contCard{
+        margin-inline: 5%;
+    }
+
+}
